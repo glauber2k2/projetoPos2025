@@ -6,5 +6,4 @@ grupo: Glauber Monteiro, Diego Altenkirch, Vinicius Ferreira.
 
 [Mapa Mental](https://mm.tt/app/map/3682702054?t=hEWbcv0vWH)
 
-link do figma (obviamente
-https://www.figma.com/design/uQXsz4O7nuNBJJiU6MAktW/ProjetoP%C3%B3sDaniel?node-id=0-1&t=fWCLWPR4sPLjWKih-1
+[Figma](https://www.figma.com/design/uQXsz4O7nuNBJJiU6MAktW/ProjetoP%C3%B3sDaniel?node-id=0-1&t=fWCLWPR4sPLjWKih-1)
