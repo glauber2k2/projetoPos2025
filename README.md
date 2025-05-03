@@ -44,10 +44,11 @@ Opções de prioridade e categoria.
 
 4. Criar Projeto
 Campo para nome do projeto.
+Campo para uma data limite de finalização do projeto, caso necessária.
 Opção de adicionar imagem.
 Botão para salvar ou cancelar.
 
-5. Projeto
+6. Projeto
 Visualização de projeto específico.
 Exibição da imagem e nome do criador (exemplo: Vinícius Ferreira).
 Recursos e Funcionalidades
