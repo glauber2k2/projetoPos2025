@@ -11,7 +11,7 @@ ________________________________________________________________________________
 [Mapa Mental](https://mm.tt/app/map/3682702054?t=hEWbcv0vWH)
 
 [Figma](https://www.figma.com/design/uQXsz4O7nuNBJJiU6MAktW/ProjetoP%C3%B3sDaniel?node-id=0-1&t=fWCLWPR4sPLjWKih-1)
-___________________________________________________________________________________________________________________________________________________
+__________________________________________________________________________________________________________________________________________________
 FRONTEND
 - REACT
 - NEXT
@@ -19,11 +19,13 @@ FRONTEND
 - LUCIDE
   
 BACKEND
-- API REST (CRUD, autenticação JWT)	JavaScript (Node.js + Express)
-- Interface de banco de dados	JavaScript (com ORM como Sequelize ou Prisma)
+- Banco de dados PostgreSQL.
+- API REST (CRUD, autenticação JasonWebToken)	JavaScript (Node.js + Express)
+- Interface de banco de dados	JavaScript (com ORM como Sequelize)
 - Validação de sessão, proteção de rotas	JavaScript
 - Notificações agendadas (email, push)	Python
 - Verificação de prazos	Python
+
 ___________________________________________________________________________________________________________________________________________________
 Estrutura Frontend (Figma):
 
