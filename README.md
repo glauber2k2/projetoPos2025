@@ -20,7 +20,6 @@ Botões para + Criar Tarefa e + Criar Projeto.
 3. Criar Tarefa
 Tela para inserir o nome da tarefa.
 Opções de prioridade e categoria.
-Botão para salvar a tarefa.
 
 4. Criar Projeto
 Campo para nome do projeto.
