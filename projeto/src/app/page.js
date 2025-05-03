@@ -30,6 +30,7 @@ export default function Home() {
             Tarefa <button>a</button>
           </div>
         </div>
+        <div></div>
         <div className="col-span-2 border-2 rounded-xl p-4">teste</div>
       </div>
     </div>
