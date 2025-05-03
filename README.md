@@ -46,38 +46,38 @@ Design responsivo com componentes simples e funcionais.
 Estrutura Backend
 
 1. Autenticação e Autorização
-Cadastro de usuário (POST /register)
-Login com autenticação JWT ou session (POST /login)
-Logout e verificação de sessão
-Proteção de rotas para que cada usuário veja apenas suas tarefas/projetos
+- Cadastro de usuário (POST /register)
+- Login com autenticação JWT ou session (POST /login)
+- Logout e verificação de sessão
+- Proteção de rotas para que cada usuário veja apenas suas tarefas/projetos
 
  2. Gerenciamento de Tarefas
-Criar tarefa (POST /tasks)
-Listar tarefas do usuário (GET /tasks)
-Com filtros por status, prioridade e data
-Atualizar tarefa (PUT /tasks/:id)
-Alterar status (pendente, em andamento, concluída)
-Excluir tarefa (DELETE /tasks/:id)
+- Criar tarefa (POST /tasks)
+- Listar tarefas do usuário (GET /tasks)
+- Com filtros por status, prioridade e data
+- Atualizar tarefa (PUT /tasks/:id)
+- Alterar status (pendente, em andamento, concluída)
+- Excluir tarefa (DELETE /tasks/:id)
 
 3. Gerenciamento de Projetos
-Criar projeto (POST /projects)
-Listar projetos do usuário (GET /projects)
-Ver detalhes do projeto (GET /projects/:id)
-Atualizar projeto (PUT /projects/:id)
-Excluir projeto (DELETE /projects/:id)
+- Criar projeto (POST /projects)
+- Listar projetos do usuário (GET /projects)
+- Ver detalhes do projeto (GET /projects/:id)
+- Atualizar projeto (PUT /projects/:id)
+- Excluir projeto (DELETE /projects/:id)
 
 4. Notificações e Prazos
-Backend deve agendar notificações (via cronjob, por exemplo) ou integrar com serviços de push/email.
-Verificar prazos vencidos ou próximos e retornar avisos via API.
+- Backend deve agendar notificações (via cronjob) e integrar com serviços de push/email.
+- Verificar prazos vencidos ou próximos e retornar avisos via API.
 
 5. Categorização e Filtros
-Permitir que o usuário atribua categorias ou tags às tarefas
-Filtros na listagem por categoria, prioridade, status e datas
+- Permitir que o usuário atribua categorias ou tags às tarefas
+- Filtros na listagem por categoria, prioridade, status e datas
 
-6. Estrutura de Banco de Dados (Exemplo Simplificado)
+6. Estrutura de Banco de Dados
 Tabelas principais:
-users(id, nome, email, senha_hash)
-tasks(id, user_id, título, descrição, status, prioridade, categoria, prazo)
-projects(id, user_id, nome, imagem)
-notifications(id, user_id, message, date)
+- users(id, nome, email, senha_hash)
+- tasks(id, user_id, título, descrição, status, prioridade, categoria, prazo)
+- projects(id, user_id, nome, imagem)
+- notifications(id, user_id, message, date)
 
