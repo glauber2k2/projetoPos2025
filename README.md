@@ -4,7 +4,14 @@ grupo: Glauber Monteiro, Diego Altenkirch, Vinicius Ferreira.
 
 O Task Manager é um aplicativo desenvolvido com foco na organização pessoal, produtividade e gerenciamento de tarefas. Seu principal objetivo é ajudar os usuários a  se organizarem com mais eficiência, permitindo a criação, edição, categorização e acompanhamento de tarefas de maneira simples e intuitiva. A interface foi projetada no Figma com um design moderno, funcional e responsivo, priorizando a praticidade e a clareza na navegação. 
 O app oferece uma experiência fluida, com recursos para gerenciar tarefas por prioridade, status (pendente, em andamento, concluída), prazos e notificações, tornando-se uma ferramenta completa para o controle do dia a dia e o progresso de projetos.
+___________________________________________________________________________________________________________________________________________________
 
+[Fluxograma](https://www.tldraw.com/f/pciLy9L6HDUGhUqDX0aQH?d=v-361.-189.1945.1112.pAZpclm-QIX51Q0q2C0bI)
+
+[Mapa Mental](https://mm.tt/app/map/3682702054?t=hEWbcv0vWH)
+
+[Figma](https://www.figma.com/design/uQXsz4O7nuNBJJiU6MAktW/ProjetoP%C3%B3sDaniel?node-id=0-1&t=fWCLWPR4sPLjWKih-1)
+___________________________________________________________________________________________________________________________________________________
 Telas no Figma
 1. Tela de Cadastro/Login
 Campos para nome, e-mail, senha e confirmação.
@@ -35,20 +42,15 @@ Interface com foco em usabilidade e organização.
 Divisão clara entre tarefas diárias e projetos maiores.
 Personalização visual com imagens nos projetos.
 Design responsivo com componentes simples e funcionais.
-
-[Fluxograma](https://www.tldraw.com/f/pciLy9L6HDUGhUqDX0aQH?d=v-361.-189.1945.1112.pAZpclm-QIX51Q0q2C0bI)
-
-[Mapa Mental](https://mm.tt/app/map/3682702054?t=hEWbcv0vWH)
-
-[Figma](https://www.figma.com/design/uQXsz4O7nuNBJJiU6MAktW/ProjetoP%C3%B3sDaniel?node-id=0-1&t=fWCLWPR4sPLjWKih-1)
-
-Estrutura Backend:
+___________________________________________________________________________________________________________________________________________________
+BACKEND
 - API REST (CRUD, autenticação JWT)	JavaScript (Node.js + Express)
 - Interface de banco de dados	JavaScript (com ORM como Sequelize ou Prisma)
 - Validação de sessão, proteção de rotas	JavaScript
 - Notificações agendadas (email, push)	Python
 - Verificação de prazos	Python
-
+___________________________________________________________________________________________________________________________________________________
+Estrutura Backend:
 1. Autenticação e Autorização
 - Cadastro de usuário (POST /register)
 - Login com autenticação JWT ou session (POST /login)
