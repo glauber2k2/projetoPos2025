@@ -42,7 +42,12 @@ Design responsivo com componentes simples e funcionais.
 
 [Figma](https://www.figma.com/design/uQXsz4O7nuNBJJiU6MAktW/ProjetoP%C3%B3sDaniel?node-id=0-1&t=fWCLWPR4sPLjWKih-1)
 
-Estrutura Backend
+Estrutura Backend:
+- API REST (CRUD, autenticação JWT)	JavaScript (Node.js + Express)
+- Interface de banco de dados	JavaScript (com ORM como Sequelize ou Prisma)
+- Validação de sessão, proteção de rotas	JavaScript
+- Notificações agendadas (email, push)	Python
+- Verificação de prazos	Python
 
 1. Autenticação e Autorização
 - Cadastro de usuário (POST /register)
