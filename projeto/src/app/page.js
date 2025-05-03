@@ -1,5 +1,5 @@
 "use client";
-import { Trash } from "lucide";
+
 import { useState } from "react";
 
 export default function Home() {
@@ -27,10 +27,7 @@ export default function Home() {
           </button>
 
           <div className="rounded-full border-2 flex">
-            Tarefa{" "}
-            <button>
-              <Trash />
-            </button>
+            Tarefa <button>a</button>
           </div>
         </div>
         <div className="col-span-2 border-2 rounded-xl p-4">teste</div>
