@@ -2,7 +2,7 @@
 
 grupo: Glauber Monteiro, Diego Altenkirch, Vinicius Ferreira.
 
-O Task Manager é um aplicativo desenvolvido com foco na organização pessoal, produtividade e gerenciamento de projetos. Seu principal objetivo é ajudar os usuários a  se organizarem com mais eficiência, permitindo a criação, edição, categorização e acompanhamento de tarefas de maneira simples e intuitiva. A interface foi projetada no Figma com um design moderno, funcional e responsivo, priorizando a praticidade e a clareza na navegação. 
+O Task Manager é um aplicativo desenvolvido com foco na organização pessoal, produtividade e gerenciamento de tarefas. Seu principal objetivo é ajudar os usuários a  se organizarem com mais eficiência, permitindo a criação, edição, categorização e acompanhamento de tarefas de maneira simples e intuitiva. A interface foi projetada no Figma com um design moderno, funcional e responsivo, priorizando a praticidade e a clareza na navegação. 
 O app oferece uma experiência fluida, com recursos para gerenciar tarefas por prioridade, status (pendente, em andamento, concluída), prazos e notificações, tornando-se uma ferramenta completa para o controle do dia a dia e o progresso de projetos.
 
 Telas no Figma
